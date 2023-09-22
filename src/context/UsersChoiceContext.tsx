@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from 'react';
 import { Phone } from '../types/Phone';
 import { PhoneInCart } from '../types/PhoneInCart';
+// Setting likesUserInterface
 
 type UsersChoiceContextInterface = {
   likedGadgets: Phone[];
